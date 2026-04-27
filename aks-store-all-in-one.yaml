@@ -429,7 +429,7 @@ spec:
             periodSeconds: 5
           readinessProbe:
             httpGet:
-              path: /healthz-broken
+              path: /health
               port: 8080
             failureThreshold: 3
             initialDelaySeconds: 3
