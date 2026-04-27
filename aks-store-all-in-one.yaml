@@ -448,10 +448,10 @@ metadata:
   name: store-front
 spec:
   ports:
-    - port: 80
+    - port: 802
       targetPort: 8080
   selector:
-    app: store-front-broken
+    app: store-front
   type: LoadBalancer
 ---
 apiVersion: apps/v1
