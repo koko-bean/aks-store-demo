@@ -451,7 +451,7 @@ spec:
     - port: 80
       targetPort: 8080
   selector:
-    app: store-front
+    app: store-front-broken
   type: LoadBalancer
 ---
 apiVersion: apps/v1
